@@ -15,7 +15,7 @@ public class JavaNetworkInterface {
                 System.out.println("hw: " + ni.getHardwareAddress());
             }
         } catch (Exception e) {
-            throw new RuntimeException("exception: " + e.toString());
+            throw new RuntimeException("exception: " + e.toString(),e);
         }
 
     }
